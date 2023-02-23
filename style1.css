@@ -1,0 +1,95 @@
+body{
+    color: white;
+}
+
+input{
+    border: solid 1px blue;
+    background: #11144c;
+    width: 500px;
+    height: 10vh;
+    border-radius: 3%;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+    
+
+}
+
+nav{
+    background: #233E8B;
+    height: 80px;
+   
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    line-height: 80px;
+}
+nav ul li a{
+    color: white;}
+    *{
+        margin: 0%;
+        text-decoration: none;
+        list-style: none;
+    }
+    nav ul li a:hover{
+        border-radius: 5px;
+        background: black;
+        padding: 5px;
+        transition: 0.2s;
+        color: white;
+    }
+    .special{
+        height: 20vh;
+        color: white;
+    }
+    button{
+
+        background:  #11144c;
+      
+        border: solid 1px  #639CD9 ;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;   
+        margin-left: 250px; 
+    }
+    .button{
+        width: 100px;
+        height: 5vh;
+        color: white;
+    }
+    .button:hover{
+        background: white;
+        color: black;
+        border: solid 1px black;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    footer{
+        height: 30vh;
+        background: #8ED6FF;
+        width: 100%;
+    }
+    .rights{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       margin: auto;
+     padding-top: 50px;
+     font-size: smaller;
+    }
+    #gender-select{
+        color: white;
+        background-color: #11144c;
+        border: solid 1px blue;
+        border-radius: 3%;
+        padding: 5px;
+    }
+    
